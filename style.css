@@ -1,0 +1,213 @@
+/* css untuk header 1 */
+header {
+    background-color: background: #70e1f5;
+    background: -webkit-linear-gradient(to bottom, #ffd194, #70e1f5); 
+    background: linear-gradient(to bottom, #ffd194, #70e1f5); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    color: rgb(12, 12, 14);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*css untuk latar belakang body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    background-image: url(https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/p1/664/2023/10/02/IMG-20231002-WA0031-3650508377.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+*{
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 36 px;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/*css untuk gambar barenbliss*/
+#barenbliss-image {
+    display: block;
+    margin: 0 auto;
+    width: 750px;
+    border: 3px solid #ecf56f;
+    border-radius: 10 px;
+}
+
+/* css untuk outline */
+.outline {
+    outline-style:double ;
+    padding : 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #9099c6;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.outline h2{
+    font-size: 24px;
+    text-align: center;
+}
+
+/*css untuk list */
+.list {
+    outline-style: double;
+    padding : 20px;
+    margin: 20px auto;
+    width : 80%;
+    max-width: 600px;
+    background-color: #9099c6;
+    border-radius: 10px;
+    font-family: 'Yuji Hentaigana Akari', cursive; /* Mengubah font */
+}
+ 
+.list h2 {
+    font-size: 24px;
+    text-align: center;
+    background-color: #7a2a5d;
+}
+
+ul {
+    list-style: square;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* CSS untuk tautan dalam list */
+ul li a {
+    text-decoration: none;
+    color: #0c0c0c;
+    font-weight: bold; /* Teks lebih tebal */
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* CSS untuk sejarah barenbliss */
+.muka {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #9099c6; /* Latar belakang*/
+
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+}
+
+.muka h2{
+    font-size: 24px;
+    text-align: center;
+    background-color: #7a2a5d;
+}
+
+/* CSS untuk kotak*/
+.box-model {
+    border: 2px solid #0a0909;      
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+}
+
+/* CSS untuk tabel (Informasi Lantai yang berada di Perpusnas) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center; /* Menengahkan isi tabel */
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+    
+}
+
+table thead {
+    background-color: #b5c930;
+    color: #fff;
+}
+
+table th, table td {
+    border: 1px solid #100f0f;
+    padding: 8px;
+}
+
+/* CSS (liptint) */
+.bibir {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #9099c6;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+}
+
+.bibir h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #0c0c0c;
+    background-color: #7a2a5d;
+}
+
+/* CSS (mascara) */
+.mata {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #9099c6;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+}
+
+.mata h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #0c0c0c;
+    background-color: #7a2a5d;
+}
+
+/* CSS (loose powder) */
+.bedak {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #9099c6;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+}
+
+.bedak h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #0c0c0c;
+    background-color: #7a2a5d;
+}
+
+.footer {
+    background-color: #bd3d3d;
+    padding-bottom: 4%;
+    text-align: center;
+    color: white;
+    padding: 3px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+}
+
+/* CSS ICON*/
+.instagram{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin-right: 10px;
+}
